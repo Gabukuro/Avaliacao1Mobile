@@ -20,6 +20,8 @@ public class Circulo
     */
     public Circulo(double raio, String cor) {
         // escreva aqui sua resposta
+        this.raio = raio;
+        this.cor = cor;
     }
 
     // Métodos de acesso
@@ -30,10 +32,11 @@ public class Circulo
     /* (c)
     Um aluno escreveu o seguinte código para a classe `Circulo`:
     */
-    @Override
+    @Override 
     public String toString() {
         return "Circulo [raio=" + raio + ", cor=" + cor + "]";
     }
     // O que a palavra `@Override` indica? Por que ela foi colocada neste método da classe?
     // Resposta:
+    // Isso é uma forma de indicar que está sobreescrevendo um método e não criando um novo
 }

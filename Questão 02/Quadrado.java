@@ -4,6 +4,11 @@ Implemente uma classe `Quadrado`, que possui um atributo
 o atributo `lado`. Faça com que essa classe __implemente__ a 
 interface `Geometria`.
 */
-public class Quadrado {
+public class Quadrado implements Geometria{
 
+	protected double lado;
+	
+	public Quadrado(double lado) {
+		this.lado = lado;
+	}
 }
